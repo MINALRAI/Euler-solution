@@ -1,5 +1,7 @@
+/*2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-public class Q5 {
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?*/
+ class Q5 {
 
 	public static void main(String[] args) {
 		int i,j,flag=0,n=0;
@@ -26,3 +28,5 @@ public class Q5 {
 	}
 
 }
+//output
+//232792560
