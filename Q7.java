@@ -5,7 +5,7 @@ class Q7 {
 	public static boolean isPrime(int n)
 	{
 		int flag=0;
-		for(int i=3;i<n;i++)
+		for(int i=3;i*i<=n;i++)
 		{
 			if(n%i==0)
 			{
@@ -20,10 +20,10 @@ class Q7 {
 	}
 
 	public static void main(String[] args) {
-		int n=0,x=1,count=0;
+		int n=1,x=1,count=0;
 		while(n<=10001)
 		{
-			x++;
+			x+=2;
 			if(isPrime(x))
 			{
 				count=x;
