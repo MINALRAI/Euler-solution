@@ -11,7 +11,7 @@ It can be seen that this sequence (starting at 13 and finishing at 1) contains 1
 Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million.*/
-public class Q14 {
+ class Q14 {
 	
 
 	public static void main(String[] args) {
