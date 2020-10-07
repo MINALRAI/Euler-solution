@@ -1,5 +1,7 @@
+/*The prime factors of 13195 are 5, 7, 13 and 29.
 
-public class Q3 {
+What is the largest prime factor of the number 600851475143 ?*/
+ class Q3 {
 
 	public static void main(String[] args) {
 		long i,j,c=0,flag=0,max_no=0;
@@ -33,3 +35,5 @@ public class Q3 {
 	}
 
 }
+//output
+//6857
