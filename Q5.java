@@ -2,27 +2,24 @@
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?*/
  class Q5 {
+	public static int hcf(int i,int j)
+	{
+		while(j!=0)
+		{
+			int temp=i;
+			i=j;
+			j=temp%j;
+		}
+		return i;
+	}
 
 	public static void main(String[] args) {
-		int i,j,flag=0,n=0;
-		for(i=20;i<1000000000;i+=20)
-		{
-			 flag=0;
-			for(j=20;j>=2;j--)
-			{
-				if(i%j!=0)
-				{
-					flag=1;
-					break;
-				}
-			}
-			if(flag==0)
-			{
-				n=i;
-				break;
-			}
-				
-		}
+	   int n=1;
+       for(int i=1;i<=19;i++)
+       {
+    	   int gcd=hcf(i,n);
+    	   n=(n*i)/gcd;
+       }
 		System.out.println(n);
 
 	}
