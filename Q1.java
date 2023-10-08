@@ -22,3 +22,7 @@ class Q1 {
 }
 //output
 //233168
+
+
+//trying to practice how cloning works
+//shall be reviewed by Vishnu
